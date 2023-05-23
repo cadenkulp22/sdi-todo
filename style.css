@@ -52,6 +52,16 @@ h1 {
   color: #454545;
 }
 
+.fa-trash {
+  padding-top: 15px;
+  color: #454545;
+}
+
+.fa-trash:hover {
+  color: #FF6000;
+  cursor: pointer;
+}
+
 .form-check-input {
   scale: 3;
   background-color: #FFE6C7;
