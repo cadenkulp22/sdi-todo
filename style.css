@@ -1,3 +1,65 @@
+.bg-dark {
+  background-color: #454545 !important;
+}
+
+h1 {
+  color: #FF6000;
+}
+
+.btn {
+  border-radius: 100px;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #FF6000;
+  color: #454545;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #ff7d2c;
+  color: #FFE6C7;
+}
+
+.btn-primary:active {
+  background-color: #FF6000 !important;
+  color: #454545;
+}
+
+.nav-link {
+  color: #FFE6C7;
+  opacity: 0.5;
+  font-size: larger;
+}
+
+.nav-link.active {
+  color: #FF6000;
+  opacity: 1;
+}
+
+.nav-link:hover {
+  color: #FF6000;
+  opacity: 1;
+}
+
+.card {
+  border-radius: 20px !important;
+}
+
+.task-card {
+  background-color: #FFE6C7;
+  color: #454545;
+}
+
 .form-check-input {
-  scale: 2;
+  scale: 3;
+  background-color: #FFE6C7;
+  border: 1.5px solid #454545;
+  border-radius: 100px !important;
+}
+
+.form-check-input:checked {
+  background-color: #FF6000;
+  border: 1.5px solid #FF6000;
 }
